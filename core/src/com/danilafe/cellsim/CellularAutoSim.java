@@ -44,17 +44,6 @@ public class CellularAutoSim extends ApplicationAdapter {
 				return false;
 			}
 		};
-		CellBehaviorInterface wallGen = (x, y) -> {
-			if(x == 0 || y == 0 || x == world.length - 1 || y == world[0].length - 1) return true;
-			int neighbors = numberNeighbors(x, y);
-			if(world[x][y]) {
-				if(neighbors > 2) return true;
-				return false;
-			} else {
-				if(neighbors > 5) return true;
-				return false;
-			}
-		};
 		cellBehavior = conwayLife;
 	}
 	
