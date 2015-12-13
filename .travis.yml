@@ -1,2 +1,4 @@
 language: java
 script: ./gradlew desktop:build
+jdk:
+  - oraclejdk8
