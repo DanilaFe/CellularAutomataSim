@@ -20,7 +20,7 @@ public class CellularAutoSim extends ApplicationAdapter {
 	float deltaT;
 	CellBehaviorInterface cellBehavior;
 	
-	final int cellWidth = 10;
+	final int cellWidth = 20;
 	final float secDelay = .25F;
 	
 	@Override
