@@ -55,7 +55,7 @@ public class CellularAutoSim extends ApplicationAdapter {
 				return false;
 			}
 		};
-		cellBehavior = wallGen;
+		cellBehavior = conwayLife;
 	}
 	
 	@Override
