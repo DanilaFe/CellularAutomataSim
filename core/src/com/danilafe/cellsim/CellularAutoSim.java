@@ -76,10 +76,8 @@ public class CellularAutoSim extends ApplicationAdapter {
 			}
 		}
 		if(Gdx.input.isKeyJustPressed(Keys.Z)) fillRandomly();
-		if(Gdx.input.isKeyJustPressed(Keys.E)) {
-			running = !running;
-			if(running) cellColor = new Color(hslToRgb((float) Math.random(), .25F, .85F));
-		}
+		if(Gdx.input.isKeyJustPressed(Keys.E)) running = !running;
+		if(Gdx.input.isKeyJustPressed(Keys.C)) cellColor = new Color(hslToRgb((float) Math.random(), .25F, .85F));
 		if(Gdx.input.isKeyJustPressed(Keys.T)) mode = !mode;
 		if(Gdx.input.isKeyJustPressed(Keys.R)) 
 			for (int i = 0; i < world.length; i ++)
