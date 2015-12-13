@@ -1,4 +1,4 @@
-# Cellular Automata Sim
+# Cellular Automata Sim [![Build Status](https://travis-ci.org/DanilaFe/CellularAutomataSim.svg?branch=master)](https://travis-ci.org/DanilaFe/CellularAutomataSim)
 ## About
 This is a simple project I threw together in about 30 minutes in order to simplify testing of different cellular automata rules. 
 Written in Java, CellularAutomataSim uses LibGDX for rendering and input as well as Java 8's lambda as a means of providing rules
